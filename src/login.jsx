@@ -22,7 +22,7 @@ function Login() {
 
     try {
       const response = await axios.post(
-        "https://soal.staging.id/api/oauth/token",
+        "https://soal.staging.id/oauth/token",
         {
           grant_type: "password",
           client_id: "e78869f77986684a",
